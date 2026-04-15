@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, follow">
+  <title>St. Alban's Anglican Church — Links</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="canonical" href="https://saintalbansanglican.com/links">
+  <style>
+    :root {
+      --primary: #9B2335;
+      --secondary: #1D3461;
+      --gold: #D4AF37;
+      --light: #F5F5F5;
+      --dark: #333333;
+      --font-serif: 'Garamond', 'Times New Roman', serif;
+      --font-sans: 'Optima', 'Segoe UI', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: var(--font-serif);
+      background-color: var(--secondary);
+      color: var(--light);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem 3rem;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .header img {
+      width: 80px;
+      height: auto;
+      margin-bottom: 0.75rem;
+    }
+
+    .header h1 {
+      font-family: var(--font-serif);
+      font-size: 1.6rem;
+      font-weight: normal;
+      color: var(--light);
+      margin-bottom: 0.25rem;
+    }
+
+    .header p {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.7);
+      font-family: var(--font-sans);
+    }
+
+    .divider {
+      width: 60px;
+      height: 2px;
+      background-color: var(--gold);
+      margin: 1rem auto 1.5rem;
+    }
+
+    .links-container {
+      width: 100%;
+      max-width: 480px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+    }
+
+    .section-label {
+      font-family: var(--font-sans);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--gold);
+      margin-top: 0.5rem;
+      margin-bottom: 0.1rem;
+      padding-left: 0.25rem;
+    }
+
+    .link-btn {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 8px;
+      padding: 0.9rem 1.2rem;
+      color: var(--light);
+      text-decoration: none;
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .link-btn:hover,
+    .link-btn:active {
+      background-color: rgba(255, 255, 255, 0.2);
+      border-color: var(--gold);
+      color: var(--light);
+    }
+
+    .link-btn .icon {
+      width: 2rem;
+      text-align: center;
+      font-size: 1.2rem;
+      color: var(--gold);
+      flex-shrink: 0;
+    }
+
+    .link-btn .label {
+      flex: 1;
+    }
+
+    .link-btn .arrow {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.4);
+      flex-shrink: 0;
+    }
+
+    .footer-note {
+      margin-top: 2.5rem;
+      font-family: var(--font-sans);
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.4);
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="/assets/StAlbansShield-200.png" alt="St. Alban's Anglican Church">
+    <h1>St. Alban's Anglican Church</h1>
+    <p>Hampton Roads, Virginia</p>
+    <div class="divider"></div>
+  </div>
+
+  <div class="links-container">
+
+    <div class="section-label">Our Church</div>
+
+    <a href="https://saintalbansanglican.com" class="link-btn">
+      <span class="icon"><i class="fas fa-church"></i></span>
+      <span class="label">Website</span>
+      <span class="arrow"><i class="fas fa-chevron-right"></i></span>
+    </a>
+
+    <a href="https://saintalbansanglican.com/giving" class="link-btn">
+      <span class="icon"><i class="fas fa-hand-holding-heart"></i></span>
+      <span class="label">Donate</span>
+      <span class="arrow"><i class="fas fa-chevron-right"></i></span>
+    </a>
+
+    <a href="https://saintalbansanglican.com/email-signup" class="link-btn">
+      <span class="icon"><i class="fas fa-envelope"></i></span>
+      <span class="label">Email Newsletter Sign-Up</span>
+      <span class="arrow"><i class="fas fa-chevron-right"></i></span>
+    </a>
+
+    <div class="section-label">Follow Us</div>
+
+    <a href="https://www.facebook.com/StAlbansAnglicanVA" class="link-btn" target="_blank" rel="noopener">
+      <span class="icon"><i class="fab fa-facebook"></i></span>
+      <span class="label">Facebook</span>
+      <span class="arrow"><i class="fas fa-chevron-right"></i></span>
+    </a>
+
+    <a href="https://www.youtube.com/channel/UCxrUIqG6khKAkwzLKWydAxg" class="link-btn" target="_blank" rel="noopener">
+      <span class="icon"><i class="fab fa-youtube"></i></span>
+      <span class="label">YouTube</span>
+      <span class="arrow"><i class="fas fa-chevron-right"></i></span>
+    </a>
+
+    <div class="section-label">Resources</div>
+
+    <a href="https://www.dailyoffice2019.com/" class="link-btn" target="_blank" rel="noopener">
+      <span class="icon"><i class="fas fa-book-open"></i></span>
+      <span class="label">BCP / Daily Office App</span>
+      <span class="arrow"><i class="fas fa-chevron-right"></i></span>
+    </a>
+
+  </div>
+
+  <p class="footer-note">&copy; St. Alban's Anglican Church</p>
+
+</body>
+</html>
