@@ -164,7 +164,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/ochapel1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/ochapel3b.jpg');
     background-size: cover;
     background-position: center;
     color: var(--light);
