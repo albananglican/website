@@ -782,7 +782,7 @@ textarea.form-control {
     /* Shorter hero so the wide image isn't zoomed/cropped on tall phone screens */
     .hero {
         height: auto;
-        min-height: 65vh;
+        min-height: 50vh;
     }
 
     .hero h1 {
