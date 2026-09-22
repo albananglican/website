@@ -164,7 +164,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/ochapel3b.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/ochapel4.jpg');
     background-size: cover;
     background-position: center;
     color: var(--light);
@@ -783,10 +783,20 @@ textarea.form-control {
     .hero {
         height: auto;
         min-height: 50vh;
+        /* Lighter image for phones (~75KB vs ~229KB) */
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('assets/ochapel4-mobile.jpg');
     }
 
     .hero h1 {
         font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.15rem;
+    }
+
+    .hero-content {
+        padding: 1.5rem;
     }
 
     .container {
